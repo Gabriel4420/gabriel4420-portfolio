@@ -49,7 +49,7 @@ const Contact = () => {
           alert(`${result.text}`)
         },
         (error) => {
-          console.log(error.text)
+          alert(error.text)
         },
       )
 

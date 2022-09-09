@@ -26,7 +26,7 @@ interface ProjectScreen {
 }
 
 const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
-  console.log(projects)
+
 
   return (
     <Flex m={{ base: 0, md: 24 }} direction="column">
