@@ -26,10 +26,10 @@
 ---
 
 <p align="center">
-  <img alt="Gif da Aplicação" src="public/assets/HomeApp.png" />
+  <img alt="Gif da Aplicação" src="./public/assets/HomeApp.png" />
 </p>
 <p align="center">
-  <img alt="Gif da Aplicação" src="public/assets/Mobile.png" />
+  <img alt="Gif da Aplicação" src="./public/assets/Mobile.png" />
 </p>
 
 ---
