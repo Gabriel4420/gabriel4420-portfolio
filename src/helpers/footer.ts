@@ -13,9 +13,4 @@ export const FOOTER_ITEMS: Array<NavItem> = [
     label: 'Politica de Privacidade',
     href: '/privacy',
   },
-  {
-    label: 'LGPD',
-    href: '/lgpd',
-  }
-  
 ]
