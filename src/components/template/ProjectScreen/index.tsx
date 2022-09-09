@@ -62,8 +62,9 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
                       p={6}
                       maxW={'330px'}
                       w={'full'}
+                      h="400px"
                       bg={useColorModeValue('white', 'gray.800')}
-                      boxShadow={'2xl'}
+                      boxShadow={'dark-lg'}
                       rounded={'lg'}
                       pos={'relative'}
                       zIndex={1}
@@ -107,13 +108,7 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
                         />
                       </Box>
                       <Stack pt={10} align={'center'}>
-                        <Text
-                          color={'gray.500'}
-                          fontSize={'sm'}
-                          textTransform={'uppercase'}
-                        >
-                          Brand
-                        </Text>
+                        
                         <Heading
                           fontSize={'2xl'}
                           fontFamily={'body'}
