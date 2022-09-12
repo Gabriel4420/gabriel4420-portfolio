@@ -100,14 +100,15 @@ export default function Footer() {
       <Collapse in={isOpen} animateOpacity>
         <Mobile isFooter />
       </Collapse>
-      <Flex alignItems="center" justifyContent="center">
+      <Flex alignItems="center" justifyContent="center" p="22">
         Develop by{' '}
         <Link
           href="https://github.com/Gabriel4420?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
+          fontWeight="bold"
         >
-          @gabriel4420
+          &nbsp;@gabriel4420
         </Link>
       </Flex>
     </Box>

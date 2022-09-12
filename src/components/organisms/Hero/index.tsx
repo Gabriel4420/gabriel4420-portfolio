@@ -71,10 +71,27 @@ const Hero = () => {
                 _hover={{ bg: 'orange.500', color: 'white' }}
                 textTransform="uppercase"
               >
-                Saiba mais
+                Faça um orçamento
+              </Button>
+            </Link>
+
+            <Link href="/assets/cv/Curriculum.pdf" download="cv.pdf" target="_blank">
+              <Button
+                rounded="xl"
+                size="lg"
+                fontWeight="bold"
+                px={6}
+                colorScheme="orange"
+                variant="outline"
+                _hover={{ bg: 'orange.500', color: 'white' }}
+                textTransform="uppercase"
+              >
+                meu curriculum
               </Button>
             </Link>
           </Stack>
+
+          
         </Stack>
         <Flex
           flex={1}

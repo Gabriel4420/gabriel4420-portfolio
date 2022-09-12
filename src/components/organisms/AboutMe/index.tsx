@@ -62,7 +62,7 @@ const AboutMe = () => {
               colorScheme="orange"
               textTransform="uppercase"
             >
-              Saiba mais
+              Veja meu portifólio
             </Button>
           </Link>
         </Box>
