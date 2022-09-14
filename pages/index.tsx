@@ -9,7 +9,6 @@ import { Flex, Link } from '@chakra-ui/react'
 
 import { getAllTecnologies, getAllServices } from '@/services/datocms'
 
-import image from '../public/assets/images/HomeApp.png'
 
 const Home: NextPage = ({ allTechnologies, allServices }: any) => {
   return (
@@ -23,12 +22,12 @@ const Home: NextPage = ({ allTechnologies, allServices }: any) => {
         <meta property="og:url" content="https://gabrielrodrigues.vercel.app/" />
         <meta property="og:title" content="Gabriel Rodrigues Perez" />
         <meta property="og:description" content="Traga sua ideia e transformaremos ela em solução para seu negócio. Venha descobrir como obter resultados mais significativos para seu negócio." />
-        <meta property="og:image" content={`${image}`} />
+        <meta property="og:image" content={`../public/assets/images/HomeApp.png`} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://gabrielrodrigues.vercel.app/" />
         <meta property="twitter:title" content="Gabriel Rodrigues Perez" />
         <meta property="twitter:description" content="Traga sua ideia e transformaremos ela em solução para seu negócio. Venha descobrir como obter resultados mais significativos para seu negócio." />
-        <meta property="twitter:image" content={`${image}`} />
+        <meta property="twitter:image" content={`../public/assets/images/HomeApp.png`} />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
