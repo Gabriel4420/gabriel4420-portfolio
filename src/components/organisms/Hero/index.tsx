@@ -60,7 +60,7 @@ const Hero = () => {
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: 'column', sm: 'row' }}
           >
-            <Link href="/projects" target="_blank">
+            <Link href="https://h5f480u3isj.typeform.com/to/wj9Makwv" target="_blank" rel="noreferrer">
               <Button
                 rounded="xl"
                 size="lg"
@@ -91,7 +91,7 @@ const Hero = () => {
             </Link>
           </Stack>
 
-          
+
         </Stack>
         <Flex
           flex={1}

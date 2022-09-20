@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 /* eslint-disable @next/next/no-page-custom-font */
 import type { NextPage } from 'next'
 
@@ -46,6 +47,8 @@ const Home: NextPage = ({ allTechnologies, allServices }: any) => {
       </Head>
 
       <HomeScreen services={allServices} tecnologies={allTechnologies} />
+      <div data-tf-popover="wj9Makwv" data-tf-button-color="#0445AF" data-tf-tooltip="Venha Orçar com a gente!" data-tf-chat data-tf-medium="snippet" style={{ all: 'unset' }}></div>
+      <script src="//embed.typeform.com/next/embed.js"></script>
 
       <Link
         href="https://wa.me/5517992560812?text=Ol%C3%A1%20Gabriel%20Rodrigues%20Perez%2C%20gostei%20demais%20do%20seu%20site%2C%20gostaria%20de%20conversar%20mais%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20sites."
@@ -54,8 +57,8 @@ const Home: NextPage = ({ allTechnologies, allServices }: any) => {
         rel="noreferrer"
         w="60px"
         h="60px"
-        bottom="40px"
-        right="40px"
+        bottom="90px"
+        right="25px"
         bgColor="#25d366"
         color="#fff"
         borderRadius="50px"
