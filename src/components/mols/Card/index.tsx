@@ -49,6 +49,7 @@ const Card: FC<CardServices> = ({
               h="220px"
               borderRightRadius="4xl"
               borderLeftRadius="4xl"
+              objectFit="cover"
             />
           </Box>
           <Stack>
