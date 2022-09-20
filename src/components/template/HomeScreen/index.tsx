@@ -1,6 +1,5 @@
 import { Hero } from '@/components/organisms'
 import AboutMe from '@/components/organisms/AboutMe'
-import Contact from '@/components/organisms/Contact'
 import MyServices from '@/components/organisms/MyServices'
 import MyTechs from '@/components/organisms/Techs'
 import { CardServices } from '@/interfaces/card'

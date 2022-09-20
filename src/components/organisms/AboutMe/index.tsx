@@ -25,6 +25,7 @@ const AboutMe = () => {
           alignItems="center"
           justifyContent="center"
           w="full"
+          
         >
           <Image
             src="./assets/images/perfil.jpg"

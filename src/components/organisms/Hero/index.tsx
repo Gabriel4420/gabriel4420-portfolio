@@ -52,7 +52,7 @@ const Hero = () => {
               textAlign="center"
               textTransform="uppercase"
             >
-              E transformaremos ela em solução para seu negócio!
+              Transformaremos ela em solução para seu negócio!
             </Text>
           </Heading>
 
