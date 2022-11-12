@@ -24,8 +24,8 @@ interface Desktop {
 const Desktop: FC<Desktop> = ({ isFooter }: Desktop) => {
   //
 
-  const linkColor = useColorModeValue('#00839F', '#0AB9DF')
-  const linkHoverColor = useColorModeValue('#0AB9DF', 'white')
+  const linkColor = useColorModeValue('#7100B3', '#7100B3')
+  const linkHoverColor = useColorModeValue('#BBDE1F', 'white')
   const popoverContentBgColor = useColorModeValue('white', 'gray.800')
 
   return (

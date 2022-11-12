@@ -19,18 +19,18 @@ const HomeScreen: FC<HomeScreen> = ({ services, tecnologies }: HomeScreen) => {
     <>
       <Hero />
       <AboutMe />
-      <Box p={{ base: 0, sm: 5, md: 20, lg: 10 }} id="techs">
+      <Box p={{ base: 0, sm: 5, md: 20, lg: 30 }} marginBottom="40" id="techs">
         <Heading
           textAlign="center"
-          color="#00839F"
-          p="30"
+          color="#7100B3"
+          p="50"
           textTransform="uppercase"
         >
           Minhas Tecnologias
         </Heading>
         <MyTechs techs={tecnologies} />
       </Box>
-      <Box p="30" bg="#00839F">
+      <Box p="50" bg="#7100B3" >
         <Heading
           textAlign="center"
           p="30"
@@ -44,7 +44,7 @@ const HomeScreen: FC<HomeScreen> = ({ services, tecnologies }: HomeScreen) => {
           direction={{ base: 'column', md: 'row' }}
           justifyContent="center"
           id="myservices"
-          p="30"
+          p="40"
         >
           {services.map((item, index) => (
             <MyServices

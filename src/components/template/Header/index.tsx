@@ -1,12 +1,10 @@
 import {
   Box,
   Flex,
-  Text,
   IconButton,
   Stack,
   Collapse,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
   Link,
 } from '@chakra-ui/react'
@@ -16,6 +14,7 @@ import { FiLinkedin, FiGithub } from 'react-icons/fi'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 
 import { Desktop, Mobile } from '@/components/index'
+
 import Logo from '@/components/atoms/Logo'
 
 export default function Header() {
@@ -83,7 +82,7 @@ export default function Header() {
             rel="noopener noreferrer"
           >
             <IconButton aria-label={'linkedin social network'}>
-              <FiLinkedin color="#00839F" size="30px" />
+              <FiLinkedin color="#7100B3" size="30px" />
             </IconButton>
           </Link>
 
@@ -93,7 +92,7 @@ export default function Header() {
             rel="noopener noreferrer"
           >
             <IconButton aria-label={'linkedin social network'}>
-              <FiGithub color="#00839F" size="30px" />
+              <FiGithub color="#7100B3" size="30px" />
             </IconButton>
           </Link>
         </Stack>

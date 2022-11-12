@@ -4,9 +4,9 @@ const AboutMe = () => {
   return (
     <Flex
       direction="column"
-      bgColor="#00839F"
+      bgColor="#7100B3"
       w="full"
-      pb="30"
+      p="40"
       color="white"
       id="aboutme"
       transition="ease-in-out"
@@ -25,14 +25,15 @@ const AboutMe = () => {
           alignItems="center"
           justifyContent="center"
           w="full"
-          
+         
         >
           <Image
             src="./assets/images/perfil.jpg"
             alt="foto de perfil"
             w="xs"
             h="xs"
-            rounded="full"
+            rounded="md"
+            boxShadow=' 5px 10px 31px -8px rgba(0,0,0,0.95);'
           />
         </Box>
         <Box w="full" m="10" p={{ base: '20px', md: '0px' }}>
@@ -60,7 +61,8 @@ const AboutMe = () => {
               fontWeight="bold"
               p={6}
               mt="10"
-              colorScheme="orange"
+              bg="#BBDE1F"
+              _hover={{ bg: '#BBDE1F', color: 'white' }}
               textTransform="uppercase"
             >
               Veja meu portifólio

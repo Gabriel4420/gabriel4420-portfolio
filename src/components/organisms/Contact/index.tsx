@@ -69,7 +69,7 @@ const Contact = () => {
     >
       <Flex>
         <Box
-          bg="#00839F"
+          bg="#7100B3"
           color="white"
           borderRadius="lg"
           m={{ sm: 6, md: 16, lg: 10 }}
@@ -101,8 +101,8 @@ const Contact = () => {
                           width="200px"
                           variant="ghost"
                           color="#DCE2FF"
-                          _hover={{ border: '2px solid #02054B' }}
-                          leftIcon={<BsWhatsapp color="#02054B" size="20px" />}
+                          _hover={{ border: '2px solid white' }}
+                          leftIcon={<BsWhatsapp color="white" size="20px" />}
                         >
                           +55 (17)99256-0812
                         </Button>
@@ -119,8 +119,8 @@ const Contact = () => {
                           width="100%"
                           variant="ghost"
                           color="#DCE2FF"
-                          _hover={{ border: '2px solid #02054B' }}
-                          leftIcon={<MdEmail color="#02054B" size="20px" />}
+                          _hover={{ border: '2px solid white' }}
+                          leftIcon={<MdEmail color="white" size="20px" />}
                         >
                           gabriel_rodrigues_perez@hotmail.com
                         </Button>
@@ -138,9 +138,9 @@ const Contact = () => {
                           justifyContent="flex-start"
                           variant="ghost"
                           color="#DCE2FF"
-                          _hover={{ border: '2px solid #02054B' }}
+                          _hover={{ border: '2px solid white' }}
                           leftIcon={
-                            <MdLocationOn color="#02054B" size="20px" />
+                            <MdLocationOn color="white" size="20px" />
                           }
                         >
                           Mirassol, Brasil
@@ -164,7 +164,7 @@ const Contact = () => {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#02054B' }}
+                        _hover={{ bg: '#BBDE1F' }}
                         icon={<FiLinkedin size="28px" />}
                       />
                     </Link>
@@ -178,7 +178,7 @@ const Contact = () => {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#02054B' }}
+                        _hover={{ bg: '#BBDE1F' }}
                         icon={<BsGithub size="28px" />}
                       />
                     </Link>

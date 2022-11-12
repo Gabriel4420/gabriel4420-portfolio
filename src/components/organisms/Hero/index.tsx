@@ -37,10 +37,10 @@ const Hero = () => {
                 position: 'absolute',
                 bottom: 1,
                 left: 0,
-                bg: 'blue.400',
+                bg: '#BBDE1F',
                 zIndex: -1,
               }}
-              color="blue.800"
+              color="#7100B3"
               textTransform="uppercase"
             >
               Traga a sua ideia
@@ -48,7 +48,7 @@ const Hero = () => {
             <br />
             <Text
               as="span"
-              color="blue.400"
+              color="#7100B3"
               textAlign="center"
               textTransform="uppercase"
             >
@@ -66,9 +66,9 @@ const Hero = () => {
                 size="lg"
                 fontWeight="bold"
                 px={6}
-                colorScheme="orange"
+                color="#7100B3"
                 variant="outline"
-                _hover={{ bg: 'orange.500', color: 'white' }}
+                _hover={{ bg: '#7100B3', color: 'white' }}
                 textTransform="uppercase"
               >
                 Faça um orçamento
@@ -81,9 +81,9 @@ const Hero = () => {
                 size="lg"
                 fontWeight="bold"
                 px={6}
-                colorScheme="orange"
+                color="#BBDE1F"
                 variant="outline"
-                _hover={{ bg: 'orange.500', color: 'white' }}
+                _hover={{ bg: '#BBDE1F', color: 'white' }}
                 textTransform="uppercase"
               >
                 meu curriculum
