@@ -107,6 +107,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           fontWeight="bold"
+          color="#7100B3"
         >
           &nbsp;@gabriel4420
         </Link>
