@@ -38,7 +38,7 @@ const AboutMe = () => {
         <Box w="full" m="10" p={{ base: '20px', md: '0px' }}>
           <Text p="1" fontFamily="Montserrat">
             Acredito que sempre podemos ir além, basta ter 99% de transpiração e
-            1% de inspiração, como já dizia Einstein.
+            1% de inspiração, como já dizia Einstein
           </Text>
           <Text p="1" fontFamily="Montserrat">
             Sou um grande entusiasta da tecnologia da informação, além de ser formado em analise de
