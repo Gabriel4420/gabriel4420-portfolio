@@ -58,6 +58,7 @@ const Contact = () => {
   return (
     <Container
       bg="#fff"
+
       maxW="full"
       centerContent
       overflow="hidden"
@@ -73,23 +74,23 @@ const Contact = () => {
           color="white"
           borderRadius="lg"
           m={{ sm: 6, md: 16, lg: 10 }}
-          p={{ sm: 5, md: 5, lg: 16 }}
+          p={{ base: 0, md: 5, lg: 16 }}
         >
           <Box p={4}>
             <Wrap spacing={{ base: 10, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
-                <Box>
+                <Box w={{ base: "350px", md: 'unset' }}>
                   <Heading
                     textAlign={{ base: 'center', md: 'left' }}
-                    p={{ base: 5, md: 0 }}
+                    p={{ base: 0, md: 0 }}
                   >
                     Contato
                   </Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="white">
+                  <Text mt={{ base: 3, md: 3, lg: 5 }} fontSize={{ base: "14px", md: '16px' }} ml={{ base: "50px", md: '2' }} color="white">
                     Preencha o formulário abaixo para entrar em contato
                   </Text>
-                  <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                    <VStack pl={0} spacing={3} alignItems="flex-start">
+                  <Box py={{ base: 10, sm: 5, md: 8, lg: 10 }} ml={{ base: "30px", md: '2' }} >
+                    <VStack pl={0} spacing={4} alignItems="flex-start">
                       <Link
                         href="https://wa.me/5517992560812?text=Ol%C3%A1%20Gabriel%20Rodrigues%20Perez%2C%20gostei%20demais%20do%20seu%20site%2C%20gostaria%20de%20conversar%20mais%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20sites."
                         target="_blank"
@@ -151,7 +152,7 @@ const Contact = () => {
                   <HStack
                     mt={{ lg: 5, md: 10 }}
                     spacing={5}
-                    px={5}
+                    px={{ base: 10, md: 5 }}
                     alignItems="flex-start"
                   >
                     <Link
@@ -194,7 +195,7 @@ const Contact = () => {
                   <Box m={8} color="#0B0E3F">
                     <VStack spacing={5}>
                       {/*  */}
-                      <form onSubmit={sendEmail}>
+                      <form onSubmit={sendEmail} >
                         <FormControl id="name">
                           <FormLabel>Nome</FormLabel>
                           <InputGroup borderColor="#E0E1E7">
