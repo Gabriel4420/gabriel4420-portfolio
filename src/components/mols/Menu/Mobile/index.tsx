@@ -30,7 +30,8 @@ const Mobile: FC<Mobile> = ({ isFooter }: Mobile) => {
       display={{ md: 'none' }}
       position="fixed"
       zIndex="999"
-      mt="10"
+      mt="65px"
+      height="full"
     >
       {isFooter ? (
         <>
