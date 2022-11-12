@@ -19,11 +19,11 @@ const HomeScreen: FC<HomeScreen> = ({ services, tecnologies }: HomeScreen) => {
     <>
       <Hero />
       <AboutMe />
-      <Box p={{ base: 0, sm: 5, md: 20, lg: 30 }} marginBottom="40" id="techs">
+      <Box p={{ base: 0, sm: 5, md: 20, lg: 30 }} pt="20" marginBottom="30" id="techs">
         <Heading
           textAlign="center"
           color="#7100B3"
-          p="50"
+          p={{ base: '0', md: "50" }}
           textTransform="uppercase"
         >
           Minhas Tecnologias
