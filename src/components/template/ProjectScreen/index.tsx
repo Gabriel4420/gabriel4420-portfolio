@@ -1,9 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import {
-  getAllProjects,
-  getAllServices,
-  getAllTecnologies,
-} from '@/services/datocms'
+import { getAllProjects } from '@/services/datocms'
 import {
   Box,
   Flex,
@@ -35,7 +31,7 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
           mt={{ base: 28, md: 0 }}
           p="18"
           textAlign="center"
-          color="#00839F"
+          color="#7100B3"
         >
           Meus Projetos
         </Heading>
@@ -48,21 +44,23 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
       >
         <Provider>
           <LeftButton />
-          <Carousel gap={2}>
+          <Carousel gap={3}>
             {projects.map((item, index: number) => (
-              <Flex key={index}>
+              <Flex key={index} p={{ base: "3", md: '5' }}>
                 <Link
                   href={item.linkDoProjeto}
                   target="_blank"
                   rel="noreferrer"
+                  _hover={{color:'blue'}}
                 >
                   <Center py={12}>
                     <Box
                       role={'group'}
-                      p={6}
+                      pt={6}
+                      p="3"
                       maxW={'330px'}
                       w={'full'}
-                      h="400px"
+                      h="450px"
                       bg={useColorModeValue('white', 'gray.800')}
                       boxShadow={'dark-lg'}
                       rounded={'lg'}
@@ -71,7 +69,7 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
                     >
                       <Box
                         rounded={'lg'}
-                        mt={-12}
+                        mt={-16}
                         pos={'relative'}
                         height={'230px'}
                         _after={{
@@ -80,7 +78,7 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
                           w: 'full',
                           h: 'full',
                           pos: 'absolute',
-                          top: 5,
+                          top: 0,
                           left: 0,
                           backgroundImage: `url(${item.imagemDoProjeto.map(
                             (intern: { url: any }) => intern.url,
@@ -90,15 +88,15 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
                         }}
                         _groupHover={{
                           _after: {
-                            filter: 'blur(20px)',
+                            filter: 'blur(10px)',
                           },
                         }}
                       >
                         <Image
-                          rounded={'lg'}
+                          rounded={'3xl'}
                           height={230}
                           width={282}
-                          objectFit={'cover'}
+                          objectFit={'contain'}
                           src={item.imagemDoProjeto.map(
                             (intern: { url: string }) => intern.url,
                           )}
@@ -108,16 +106,17 @@ const ProjectScreen: FC<ProjectScreen> = ({ projects }: ProjectScreen) => {
                         />
                       </Box>
                       <Stack pt={10} align={'center'}>
-                        
+
                         <Heading
-                          fontSize={'2xl'}
+                          fontSize={{ base: 'xl', md: '2xl' }}
                           fontFamily={'body'}
-                          fontWeight={500}
+                          fontWeight={700}
+                          color="#7100B3"
                         >
                           {item.titulo}
                         </Heading>
                         <Stack direction={'row'} align={'center'}>
-                          <Text fontWeight={200} fontSize={'sm'}>
+                          <Text fontWeight={400} fontSize={{ base: 'xs', md: 'sm' }}>
                             {item.descriO}
                           </Text>
                         </Stack>
