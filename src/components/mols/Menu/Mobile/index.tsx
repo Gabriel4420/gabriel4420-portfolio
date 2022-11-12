@@ -28,6 +28,9 @@ const Mobile: FC<Mobile> = ({ isFooter }: Mobile) => {
       bg={useColorModeValue('white', 'gray.800')}
       p={4}
       display={{ md: 'none' }}
+      position="fixed"
+      zIndex="999"
+      mt="10"
     >
       {isFooter ? (
         <>

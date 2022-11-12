@@ -17,20 +17,26 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
   const { isOpen, onToggle } = useDisclosure()
 
   return (
-    <Stack spacing={4} onClick={children && onToggle}>
+    <Stack spacing={4} onClick={children && onToggle}    >
       <Flex
         py={2}
         as={Link}
         href={href ?? '#'}
         justify={'space-between'}
+    
         align={'center'}
         _hover={{
           textDecoration: 'none',
         }}
+       
       >
         <Text
           fontWeight={600}
           color={useColorModeValue('gray.600', 'gray.200')}
+        
+          
+          
+          
         >
           {label}
         </Text>
@@ -45,7 +51,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         )}
       </Flex>
 
-      <Collapse in={isOpen} animateOpacity style={{ marginTop: '0!important' }}>
+      <Collapse in={isOpen} animateOpacity style={{ marginTop: '0!important' }}  >
         <Stack
           mt={2}
           pl={4}
