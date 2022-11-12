@@ -6,7 +6,7 @@ const AboutMe = () => {
       direction="column"
       bgColor="#7100B3"
       w="full"
-      p="40"
+      p={{base:'5',md:"40"}}
       color="white"
       id="aboutme"
       transition="ease-in-out"

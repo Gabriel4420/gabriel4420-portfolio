@@ -22,10 +22,10 @@ const Card: FC<CardServices> = ({
 }: CardServices) => {
   return (
     <Flex direction={{ base: 'column', md: 'row' }}>
-      <Center py={3} borderRadius="3xl">
+      <Center py={14} borderRadius="3xl">
         <Box
-          maxW="300px"
-          w="full"
+          maxW={{ base: "300px", md: "800px" }}
+          w={{ base: "full", md: '300px' }}
           bg={useColorModeValue('white', 'gray.900')}
           boxShadow="2xl"
           rounded="md"

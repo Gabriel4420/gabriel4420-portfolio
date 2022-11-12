@@ -10,7 +10,7 @@ const MyServices: FC<CardServices> = ({
   shortDescription,
 }: CardServices) => {
   return (
-    <Flex px="10">
+    <Flex px={{ base: '0', md: '90px' }}>
       <Card
         title={title}
         shortDescription={shortDescription}
